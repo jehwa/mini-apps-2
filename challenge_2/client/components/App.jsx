@@ -8,6 +8,15 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      data: {
+        labels:[],
+        datasets: [ {
+          label: '$USD/BTC',
+          data: [],
+          backgroundColor: '#bad7df'
+        
+        }]
+      },
       startDate: null,
       endDate: null
     }
